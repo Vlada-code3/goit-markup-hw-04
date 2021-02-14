@@ -140,7 +140,6 @@ margin-right: 93px;
 .contacts-nav {
     display: flex;
     margin-left: auto;
-   
 
 }
 .nav-contact-link:not(:last-child){
@@ -178,14 +177,15 @@ letter-spacing: 0.02em;
     fill: var(--primary-text-color);
     margin-right: 10px;
 }
-.mail:hover,
+.mail:hover svg,
 .mail:focus svg{
 fill:var(--accent-color );
 }
-.tel:hover,
+.tel:hover svg,
 .tel:focus svg{
 fill:var(--accent-color );
 }
+
 
 
 
