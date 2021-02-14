@@ -69,7 +69,11 @@ margin: 0;
     color:var(--accent-color );
     border-bottom:2px solid #2196F3; 
 }
-
+.highlights:hover,
+.highlights:focus {
+    
+   border-bottom:2px solid #2196F3; 
+}
 
 .hero-button {
     color: #FFFFFF;
@@ -136,7 +140,6 @@ margin-right: 93px;
 .contacts-nav {
     display: flex;
     margin-left: auto;
-    color: var(--primary-text-color);
 
 }
 .nav-contact-link:not(:last-child){
@@ -564,11 +567,6 @@ margin-right: auto;
 display: flex;
     
 }
-.highlights p:hover,
-.highlights p:focus { 
-    
-    border-bottom:2px solid #2196F3;
-}
 
 
 .footer-social {
@@ -747,7 +745,7 @@ a.link-further{
     display: block;
     text-decoration: none;
 }
-.link-further:hover,
+.link-further:hover ,
  .link-further:focus {
     display: inline-block;
    text-decoration:none;
