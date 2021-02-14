@@ -69,8 +69,8 @@ margin: 0;
     color:var(--accent-color );
     border-bottom:2px solid #2196F3; 
 }
-.highlights:hover,
-.highlights:focus {
+ .highlights:hover,
+ .highlights:focus {
     
    border-bottom:2px solid #2196F3; 
 }
@@ -548,7 +548,8 @@ border: 1px solid #AFB1B8;
 
     .comp-link:hover svg,
     .comp-link:focus svg {
-       fill: var(--accent-color);}
+       fill: var(--accent-color);
+    }
 
 /** footer conteiner **/
 .footer-block{
@@ -626,6 +627,11 @@ margin-bottom: 20px;
 .footer-links:focus {
     background-color: var(--accent-color);
 }
+ .footer-links:hover svg,
+  .footer-links:focus svg {
+       fill: #ffffff; 
+    }
+
 
 .logo-footer {
     display: block;
