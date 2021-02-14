@@ -28,9 +28,10 @@ body {
     margin: 0;
     
 }
-a:link {
+a {
     text-decoration: none;
 }
+
 ul {
     margin: 0;
     padding: 0;
@@ -55,7 +56,7 @@ margin: 0;
  
 .link:hover {
     color: var(--accent-color );
-   text-decoration:underline solid #2196F3;
+   
 }
 .link:focus {
     color: var(--accent-color );
@@ -67,7 +68,7 @@ margin: 0;
 .contact-link:hover,
 .contact-link:focus {
     color:var(--accent-color );
-    border-bottom:2px solid #2196F3; 
+    
 }
  .highlights:hover,
  .highlights:focus {
@@ -164,6 +165,7 @@ letter-spacing: 0.02em;
     line-height: 1.2;
     font-weight: 500;
     color: var(--primary-text-color);
+    
 }
 .mail svg {
     width: 16px;
@@ -760,7 +762,7 @@ a.link-further{
     height: 404px;
     background: #FFFFFF;
       box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-    border-radius: 0px 0px 4px 4px;
+   
 }
 
 
@@ -768,26 +770,27 @@ a.link-further{
 display: block;
 }
 .photo-cards{
-    display: block;
-    max-width: 100%;
-    height: auto;
+    position:  relative;
+    width: auto;
+    height: 294px;
+    overflow: hidden;
 }
+
 .projects-items {
     width: 370px;
-margin-left: 30px;
-margin-top: 30px;
-background: #FFFFFF;
-
+    margin-left: 30px;
+    margin-top: 30px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
 }
+
 .name {
-    width: 370px;
     padding: 20px 24px;
-    border: 1px solid #eeeeee;
     border-top: none;
     background-color: #FFFFFF;
 }
 
-.projects-table h3 {
+.name h3 {
         font-weight: 700;
     font-size: 18px;
     letter-spacing: 0.06em;
@@ -796,13 +799,16 @@ background: #FFFFFF;
     color: var(--text-title-color);
     margin-bottom: 4px;
 }
-.projects-table p {
+.name p {
+    font-family: Roboto;
  font-size: 16px;
+ font-weight: 400;
     line-height: 1.87;
    margin-top: 0;
     margin-bottom: 0;
 color: var(--primary-text-color);
 }
+
 
 .test {
     height: 200px;
