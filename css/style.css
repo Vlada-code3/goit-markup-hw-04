@@ -810,20 +810,3 @@ color: var(--primary-text-color);
 }
 
 
-.test {
-    height: 200px;
-    width: 200px;
-    background-color: red;
-
-}
-.test svg {
-    height: 50px;
-    width: 50px;
-    fill: black;
-}
-.test:hover {
-    background-color: blue;
-}
-.test:hover svg{
-    fill:red;
-}
