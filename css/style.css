@@ -140,6 +140,7 @@ margin-right: 93px;
 .contacts-nav {
     display: flex;
     margin-left: auto;
+    color: var(--primary-text-color);
 
 }
 .nav-contact-link:not(:last-child){
@@ -745,7 +746,8 @@ a.link-further{
     display: block;
     text-decoration: none;
 }
-.link-further:hover {
+.link-further:hover,
+ .link-further:focus {
     display: inline-block;
    text-decoration:none;
        width: 370px;
