@@ -626,12 +626,12 @@ margin-bottom: 20px;
     height: 100%;
 
 }
-.footer-links:hover,
-.footer-links:focus {
+.footer-li:hover,
+.footer-li:focus {
     background-color: var(--accent-color);
 }
- .footer-links:hover svg,
-  .footer-links:focus svg {
+ .footer-li:hover svg,
+  .footer-li:focus svg {
        fill: #ffffff; 
     }
 
